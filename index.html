@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="sidebar">
+            <nav>
+                <a onclick="showSection('about')" id="about-link" class="active">About</a>
+                <a onclick="showSection('experience')" id="experience-link">Experience</a>
+                <a onclick="showSection('projects')" id="projects-link">Projects</a>
+                <a onclick="showSection('contacts')" id="contacts-link">Contacts</a>
+            </nav>
+            <section id="about" class="content-section active">
+                <div class="in-content">
+                    <div>
+                        <h3>Who am I?</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ullam illum praesentium
+                            pariatur
+                            quasi expedita dolorum repudiandae consectetur minus molestiae, rerum reiciendis voluptatum
+                            quas
+                            eum
+                            cupiditate ad repellat voluptates asperiores.</p>
+                    </div>
+                    <div>
+                        <h3>What skills do I have?</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, commodi atque nam excepturi
+                            magnam
+                            consequatur sequi perspiciatis iure amet earum. Sequi nesciunt deleniti sint mollitia odio!
+                            Molestias excepturi quasi voluptatum?</p>
+                    </div>
+                    <div>
+                        <h3>What is my approach to work?</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, commodi atque nam excepturi
+                            magnam
+                            consequatur sequi perspiciatis iure amet earum. Sequi nesciunt deleniti sint mollitia odio!
+                            Molestias excepturi quasi voluptatum?</p>
+                    </div>
+                    <div>
+                        <h3>What are my personal hobbies?</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, commodi atque nam excepturi
+                            magnam
+                            consequatur sequi perspiciatis iure amet earum. Sequi nesciunt deleniti sint mollitia odio!
+                            Molestias excepturi quasi voluptatum?</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="experience" class="content-section">
+                <div class="in-content">
+                    <p id="intro-experience">Over the years, I've had the opportunity to work in diverse roles that have
+                        shaped my skills and
+                        professional growth. From hands-on technical projects to team leadership, each role has
+                        contributed
+                        to my expertise and passion for continuous learning and improvement.</p>
+                    <div>
+                        <h3>Key Roles and Projects</h3>
+
+                        <ul id="jobs-list" class="list">
+                            <li>
+                                <h4 id="job-name" class="list-title">[Job Title or Project 1]</h4>
+                                <p id="company-name">Company Name, Date Range</p>
+                                <p id="description-work" class="description-list-element">Focused on [brief description
+                                    of
+                                    role
+                                    and responsibilities].
+                                    Achievements included [key accomplishments or notable skills gained].</p>
+                            </li>
+                            <li>
+                                <h4 id="job-name" class="list-title">[Job Title or Project 1]</h4>
+                                <p id="company-name">Company Name, Date Range</p>
+                                <p id="description-work" class="description-list-element">Focused on [brief description
+                                    of
+                                    role
+                                    and responsibilities].
+                                    Achievements included [key accomplishments or notable skills gained].</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Skills Developed</h3>
+
+                        <ul id="my-skills-list" class="list">
+                            <li>
+                                <h4 id="skill-name" class="list-title">[Skill 1]</h4>
+                                <p id="skill-description" class="description-list-element">Leveraging this skill to
+                                    [describe
+                                    how it's applied in your work].</p>
+                            </li>
+                            <li>
+                                <h4 id="skill-name" class="list-title">[Skill 2]</h4>
+                                <p id="skill-description" class="description-list-element">Leveraging this skill to
+                                    [describe
+                                    how it's applied in your work].</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects" class="content-section">
+                <div class="projects-list">
+                    <a class="project" href="/pages/prj1.html">
+                        <div class="in-content">
+                            <h4>3D molecular visualizer</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus commodi beatae,
+                                eveniet,
+                                reprehenderit inventore deserunt non vitae voluptas maxime, alias error voluptatum
+                                soluta
+                                eius delectus velit fugiat ipsa unde. Neque?</p>
+                        </div>
+                    </a>
+                    <a class="project" href="/pages/prj2.html">
+                        <div class="in-content">
+                            <h4>Portfolio</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus commodi beatae,
+                                eveniet,
+                                reprehenderit inventore deserunt non vitae voluptas maxime, alias error voluptatum
+                                soluta
+                                eius delectus velit fugiat ipsa unde. Neque?</p>
+                        </div>
+                    </a>
+                    <a class="project" href="/pages/prj3.html">
+                        <div class="in-content">
+                            <h4>Portfolio 2</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus commodi beatae,
+                                eveniet,
+                                reprehenderit inventore deserunt non vitae voluptas maxime, alias error voluptatum
+                                soluta
+                                eius delectus velit fugiat ipsa unde. Neque?</p>
+                        </div>
+                    </a>
+
+                </div>
+            </section>
+
+            <section id="contacts" class="content-section">
+
+                <div class="in-content">
+                    <div>
+                        <h3>Contact Me</h3>
+
+                        <p>Thank you for visiting my website! I’d love to hear from you, whether you have questions,
+                            want to
+                            collaborate on a project, or just want to connect.</p>
+                    </div>
+                    <div>
+                        <h3>Get in Touch</h3>
+
+                        <p>Email: my-email@example.com</p>
+                        <p>Phone: +123-456-7890</p>
+                    </div>
+                    <div>
+                        <h3>Social Media</h3>
+
+                        <p>Feel free to reach out to me on social media! I’m active on the following platforms:</p>
+                        <ul>
+                            <li>LinkedIn: <a href="#">Your LinkedIn Profile</a></li>
+                            <li>GitHub: <a href="#">Your GitHub Profile</a></li>
+                            <li>Twitter: <a href="#">Your Twitter Profile</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Правая часть (статичная) -->
+        <div class="right-panel">
+            <div class="profile-pic">
+                <img src="/src/img/IMG_20240918_183443.jpg" alt="profile">
+            </div>
+            <div class="profile-info">
+                <h2>ISBA228</h2>
+            </div>
+        </div>
+    </div>
+    <script>
+        "use strict";
+
+        function generateBrightColor() {
+            let r, g, b;
+            do {
+                r = Math.floor(Math.random() * 128) + 128;
+                g = Math.floor(Math.random() * 128) + 128;
+                b = Math.floor(Math.random() * 128) + 128;
+            } while (Math.abs(r - g) < 20 && Math.abs(g - b) < 20 && Math.abs(b - r) < 20);
+            return `rgb(${r}, ${g}, ${b})`;
+        }
+
+        const colors = Array.from({ length: 4 }, generateBrightColor);
+        const projects = document.querySelectorAll(".project");
+        const aboutH3 = document.querySelectorAll("#about h3");
+        const expH3 = document.querySelectorAll("#experience h3");
+        const contactsH3 = document.querySelectorAll("#contacts h3");
+
+        //рандомим цвета чтобы проекты были цветными 
+        projects.forEach((project, index) => {
+            project.style.background = colors[index];
+        });
+
+        aboutH3.forEach((header, index) => {
+            header.style.background = colors[index];
+        });
+
+        expH3.forEach((header, index) => {
+            header.style.background = colors[index];
+        });
+
+        contactsH3.forEach((header, index) => {
+            header.style.background = colors[index];
+        });
+
+        function showSection(sectionId) {
+            // Убираем класс active у всех секций и ссылок
+            document.querySelectorAll('.content-section').forEach(section => {
+                section.classList.remove('active');
+            });
+            document.querySelectorAll('.sidebar nav a').forEach(link => {
+                link.classList.remove('active');
+            });
+
+            // Добавляем класс active для выбранной секции и ссылки
+            document.getElementById(sectionId).classList.add('active');
+            document.getElementById(sectionId + '-link').classList.add('active');
+        }
+    </script>
+</body>
+
+</html>
